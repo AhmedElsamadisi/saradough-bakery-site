@@ -20,5 +20,5 @@ test('keeps ordering connected to the bakery Instagram account', () => {
 
 test('emits metadata and an accessible hero image', () => {
   assert.match(html, /Small-batch, naturally leavened sourdough/);
-  assert.match(html, /alt="Two naturally leavened sourdough loaves/);
+  assert.match(html, /alt="A sliced almond-topped sourdough loaf/);
 });
